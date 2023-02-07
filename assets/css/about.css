@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("fontawesome-all.min.css");
+
+html { 
+	font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+	background: #4169E1; /* cor do fundo */
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: auto;
+}
+
+#floats {
+	position: relative;
+    display: inline-block;
+}
+
+section {
+	position: relative;
+	display: block;
+	float: left;
+	margin-top: 20px;
+	padding: 10px;
+	height: 100%;
+	width: 33%;
+}
+h1 {
+    font-size: 28px;
+    color: #ffffff;
+	margin: 10px 20px;
+	text-align: center;
+}
+p {
+    font-size: 20px;
+	text-align: justify;
+    color: #ffffff;
+	margin: 20px 15px;
+}
+
+/* button Serviços*/
+#button {
+	display: block;
+    height: auto;
+	width: auto;
+	margin: 15px;
+    padding: 5px;
+    background-color: transparent;
+}
+#button ul {
+    list-style: none;
+    position: relative;
+    width: auto;
+	height: auto;
+	margin: 0;
+    padding: 10px;
+    background-color: transparent;
+}
+#button  li {
+    display: block;
+	width: auto;
+	height: auto;
+	margin: 5px;
+	text-align: center;
+}
+
+#button	a {
+    display: block;
+	font-family: Arial;
+	font-size: 14pt;
+	color: #ffffff;
+	text-decoration: none;
+    border: 1px solid #ffffff;
+	border-radius: 5px;
+    background-color: transparent;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 5px;
+	transition: background-color 1s;
+}
+#button a:hover {
+	background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* aside */
+#lateral {
+    display: block;
+	float: right;
+    height: auto;
+	width: 65%;
+	margin-top: 20px;
+}
+
+.imagens {
+	display: block;
+	margin: 5px;
+	padding-top: 10px;
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+
+.img-tab {
+	position: relative;
+    display: block;
+    display: inline-block;
+	margin: 10px;
+}
+img {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+
+ /* Rodapé */
+footer#rodape {
+	display: block;
+	position: relative;
+    clear: both;
+    height: auto;
+	width: 99%;
+	margin: 0;
+    padding: 0px;
+	cursor: default;
+}
+
+footer#rodape p {
+    text-align: center;
+}
+footer#rodape span {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+}
