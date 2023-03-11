@@ -65,21 +65,21 @@ h1 {
 .card-title1 {
     width: 290px;
     height: 200px;
-    background: url(/images/ti.jpg);
+    background: url(./images/ti.jpg);
     background-size: cover;
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
 }
 .card-title2 {
     width: 290px;
     height: 200px;
-    background: url(/images/suporte.jpg);
+    background: url(./images/suporte.jpg);
     background-size: cover;
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
 }
 .card-title3 {
     width: 290px;
     height: 200px;
-    background: url(/images/front-end.jpg);
+    background: url(./images/front-end.jpg);
     background-size: cover;
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
 }
