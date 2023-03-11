@@ -1,51 +1,68 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="pt-BR">
-	<head>
-		<title>Guilherme Braun</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/style.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<video id="background" src="video/bg.mp4" type="video/mp4" autoplay muted loop></video>
-			<div id="main">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/css.css">
+        <title>Guilherme Front-End</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="perfil">
+                <img src="./images/perfil.jpg" alt="">
+            </div>
+            <h1>Guilherme Braun</h1>
+        </header>
+        <div class="container">
+            <div class="card">
+                <div class="card-title1"></div>
+                <div class="card-body">
+                    <h3>Téc. em Informática</h3>
+                    <p>Montagem e manutenção de microcomputadores e notebooks. Montagem e manutenção avançada em Windows e Linux. Redes. Instalação de impressoras. Formatação de Celulares e tablets.</p>
+                    <button id="btn1">Mais</button>
+                </div>
+            </div>
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Guilherme Braun</h1>
-						<p>Técnico em Informática &nbsp;&bull;&nbsp; Suporte Online &nbsp;&bull;&nbsp; Dev Web &nbsp;&bull;&nbsp; Front End (HTML CSS JS)</p>
+            <div class="card">
+                <div class="card-title2"></div>
+                <div class="card-body">
+                    <h3>Suporte Online</h3>
+                    <p>Orientação por acesso remoto (teamviewer) ou telefone, SMS, Whatsapp, Telegram, Facebook, Instagram, Twitter, ou outros chats.</p>
 
-						<div id="container">
-							<span><a href="#">Serviços</a></span>
-							<p>&nbsp;&nbsp;&bull;&nbsp;&nbsp;</p>
-							<span><a href="#">Portfólio</a></span>
-						</div>
+                    <button id="btn2">Mais</button>
+                </div>
+            </div>
 
-							<nav>
-								<ul>
-									<li><a href="https://www.linkedin.com/in/guilherme-braun-823b801a8/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/guilhermedbraun" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
-									<li><a href="https://twitter.com/guilhermedbraun" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-									<li><a href="https://www.facebook.com/guilherme.dbraun" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-									<li><a href="https://www.instagram.com/guilhermedbraun/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-									<li><a href="https://wa.me/qr/CKL344DFJHSKK1" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
-								</ul>
-							</nav>
-					</header>
+            <div class="card">
+                <div class="card-title3"></div>
+                <div class="card-body">
+                    <h3>Dev Web Front-End</h3>
+                    <p>Criação de websites, layouts, landing page pessoal ou empresarial.</p>
+                    <br>
+                    <p>HTML, CSS, JS e MYSQL.</p>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span>Copyright &copy; 2023</span>
-					</footer>
-
-			</div>
-		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+                    <button id="btn3">Mais</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="col">
+                 <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/guilherme-braun-823b801a8"><i class="fab fa-linkedin-in" target="_blank"></i></a>
+                    <a href="https://github.com/guilhermedbraun"><i class="fab fa-github" target="_blank"></i></a>
+                    <a href="https://twitter.com/guilhermedbraun"><i class="fab fa-twitter" target="_blank"></i></a>
+                    <a href="https://www.facebook.com/guilherme.dbraun"><i class="fab fa-instagram" target="_blank"></i></a>
+                    <a href="https://www.instagram.com/guilhermedbraun"><i class="fab fa-facebook-f" target="_blank"></i></a>
+                    <a href="https://wa.me/qr/CKL344DFJHSKK1"><i class="fab fa-whatsapp" target="_blank"></i></a>
+                 </div>
+            </div>
+         <hr>
+         <p class="copyright">Copyright &copy; 2023</p>
+     </footer>
+     <script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+    </body>
 </html>
