@@ -155,25 +155,25 @@ footer {
     line-height: 20px;
     clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%);
 }
+/* ================ Social Communit ================ */
 .col {
     display: flex;
     padding: 10px;
-    margin-right: 50px;
-    justify-content: end;
+    margin-right: 4%;
+    float: right;
 }
-/* ================ Social Communit ================ */
 .social-icons .fab {
     width: 60px;
     height: 60px;
     border-radius: 50%;
     text-align: center;
-    line-height: 57px;
+    line-height: 60px;
     font-size: 30px;
     color: #ffffff;
     background: transparent;
     border: 2px solid #ffffff;
+    margin-right: 15px;
     cursor: pointer;
-    margin: 10px;
 }
 .social-icons .fab:hover {
     transform: translateY(-5px);
