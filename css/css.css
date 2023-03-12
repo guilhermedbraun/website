@@ -162,7 +162,9 @@ footer {
     margin-right: 4%;
     float: right;
 }
-.social-icons .fab {
+.social-icons a {
+    display: inline-block;
+    position: relative;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -175,7 +177,12 @@ footer {
     margin-right: 15px;
     cursor: pointer;
 }
-.social-icons .fab:hover {
+.social-icons .fab {
+    font-size: 30px;
+    color: #ffffff;
+    background: transparent;
+}
+.social-icons a:hover {
     transform: translateY(-5px);
     transition: 0.3s linear;
     background: hsla(0, 0%, 100%, 0.3);
