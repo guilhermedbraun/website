@@ -81,19 +81,21 @@ h1 {
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
 }
 .card-title1 img {
-    max-width: 100%;
+    width: 100%;
 }
 .card-title2 img {
-    max-width: 100%;
+    width: 100%;
 }
 .card-title3 img {
-    max-width: 100%;
+    width: 100%;
 }
 .card:hover {
     transform: translateY(-10px);
     transition: 0.3s linear;
 }
 .card-body {
+    display: block;
+    position: static;
     padding: 10px;
 }
 h3 {
@@ -128,6 +130,7 @@ p {
     padding: 10px 30px;
     background: linear-gradient(to right, #00093c, #008eec);
     border: none;
+    margin: 0px 0px;
     color: #ffffff;
 }
 #btn1:hover {
@@ -155,6 +158,7 @@ footer {
     line-height: 20px;
     clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%);
 }
+
 /* ================ Social Communit ================ */
 .col {
     display: flex;
@@ -174,8 +178,8 @@ footer {
     color: #ffffff;
     background: transparent;
     border: 2px solid #ffffff;
-    margin-right: 15px;
     cursor: pointer;
+    margin: 10px;
 }
 .social-icons .fab {
     font-size: 30px;
@@ -188,7 +192,7 @@ footer {
     background: hsla(0, 0%, 100%, 0.3);
 }
 /* ================ line copy ================ */
-hr{
+hr {
     width: 90%;
     border: 0;
     border-bottom: 1px solid #ccc;
@@ -199,7 +203,7 @@ hr{
     
 }
 /* ================ responsive ================ */
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
     .header h1 {
         display: block;
         position: relative;
@@ -208,26 +212,16 @@ hr{
     
     .col {
         flex-basis: 100%;
-        margin-right: 30px;
     }
 }
-@media (max-width: 900px){
-        .container {
+@media (max-width: 900px) {
+    .container {
         display: block;
-    }
 }
-@media (max-width: 600px){
-    .col {
-        display: flex;
-        justify-content: center;
-        margin: 15px;
-    }
 }
-@media (max-width: 450px){
+@media (max-width: 500px) {
     .col {
         display: inline-block;
-        justify-content: center;
-        margin: 20px 0;
-        margin-left: 60px;
+        text-align: center;
     }
 }
