@@ -11,7 +11,7 @@
         <title>Guilherme Front-End</title>
     </head>
     <body>
-            
+
         <header class="header">
             <div class="perfil">
                 <img src="./images/perfil.jpg" alt="">
@@ -27,11 +27,10 @@
                 <div class="card-body">
                     <h3>Téc. em Informática</h3>
                     <p>Precisa instalar de concerto ou manutenção? </p>
-                   <button id="btn1"><a href="#">Mais</a></button>
+                    <button id="btn1" onclick="tecno()"><a href="#reparo">Mais</a></button>
                 </div>
             </div>
             
-
             <div class="card">
                 <div class="card-title2">
                     <img src="./images/suporte.jpg" alt="">
@@ -39,8 +38,8 @@
                 <div class="card-body">
                     <h3>Suporte Online</h3>
                     <p>Orientação por acesso remoto, telefone ou chats.</p>
-
-                    <button id="btn2"><a href="#">Mais</a></button>
+                    <p>Entre em contato e solicite suporte!</p>
+                    <button id="btn2" onclick="fullsuporte()"><a href="#suporte">Mais</a></button>
                 </div>
             </div>
 
@@ -51,14 +50,87 @@
                 <div class="card-body">
                     <h3>Dev Web Front-End</h3>
                     <p>Criação de websites, layouts, landing page pessoal ou empresarial.</p>
-
-                    <button id="btn3"><a href="#">Mais</a></button>
+                    <p>Confira meu portfolio...</p>
+                    <button id="btn3" onclick="slideshow()"><a href="#portfolio">Mais</a></button>
                 </div>
             </div>
         </div>
 
+        <div id="line">
+
+                <div class="reparo" id="reparo">
+                    <div class="cardti">
+                        <div class="card-title-ti">
+                            <video src="./video/Motherboard.mp4" type="video/mp4" autoplay muted loop></video>
+                        </div>
+                        <div class="card-tibody">
+                            <h3>Windows e Linux</h3>
+                            <p>Montagem e manutenção de microcomputadores e notebook. Montagem e manutenção avançada em Hardware e Software. Redes. Instalação de impressora. Formatação de celulares e tablets.</p>
+                            <p>Técnico em Informática desde 2008.</p>
+                            <p>A visita ao cliente tem um valor devido a locomoção e tempo.</p>
+                            <button id="btn4"><a href="#contatos">Contatos</a></button>
+                            <p>&nbsp;</p>
+                            <p>Trabalhei por 6 anos na Taxi Pontual (2009 a 2015), onde fui responsável por todos os computadores da empresa de 2012 a 2015. Computadores de atendimento/telemarketing: 33. Computadores administrativos: 15 e 4 servidores.</p>
+                            <p>&nbsp;</p>
+                            <p>Fui coordenador de logistica de uma equipe para entrega e coleta de peças de computadores, impressoras, caixas eletrônicos, porta giratória, alarmes e qualquer outra área de tecnologia a serviço da BBTS (Branco do Brasil Tecnologia e Serviços) de 2016 à 2020.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="suporte" id="suporte">
+                    <div class="card-suporte">
+                        <div class="card-title-sup">
+                            <img src="./images/./suporte-a.jpg" alt="">
+                        </div>
+                        <div class="chats">
+                            <h3>Precisa de suporte?</h3>
+                            <p>Faça contato por meio das redes sociais listadas abaixo e agende um horário.</p>
+                            <button id="btn4"><a href="#contatos">Contatos</a></button>
+                            <p>Orientação por telefone, Whatsapp, Facebook, Instagram, Twitter ou outros chats após combinar.</p>
+                            <p>Acesso remoto preferencial com o teamviewer. Baixe o teamviewer no site oficial:</p>
+                            <button id="btn5"><a href="https://www.teamviewer.com/pt-br/" target="_blank">TeamViewer</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio" id="portfolio">
+                    <div class="slide">
+                        <div class="mySlides fade">
+                            <img src="./images/portfolio/06-espers-up.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="./images/portfolio/05-espers-dw.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="./images/portfolio/04-rocketseat.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="./images/portfolio/03-projeto-mario.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="./images/portfolio/02-pro-stake-mining.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="./images/portfolio/01-taxi-pontual.jpg" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                    </div>
+                </div>
+        </div>
+
         <footer>
-            <div class="col">
+            <div class="col" id="contatos">
                  <div class="social-icons">
                     <a href="https://www.linkedin.com/in/guilherme-braun-823b801a8" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                     <a href="https://github.com/guilhermedbraun" target="_blank"><i class="fab fa-github"></i></a>
