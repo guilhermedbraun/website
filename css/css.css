@@ -114,7 +114,7 @@ h1 {
 .card {
     position: relative;
     width: 290px;
-    height: 360px;
+    height: 400px;
     margin: 40px auto;
     background: #31373d;
 }
@@ -146,7 +146,7 @@ h1 {
     width: 100%;
 }
 .card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
     transition: 0.3s linear;
 }
 .card-body {
@@ -161,6 +161,7 @@ h3 {
 p {
     font-size: 14px;
     color: #ffffff;
+    margin: 10px 0;
 }
 
 /* ================ button ================ */
@@ -213,6 +214,215 @@ p {
     transition: 0.3s linear;
 }
 
+/* ================ Expansão ================ */
+#line {
+    display: block;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin: 0 auto;
+}
+/* ================ técnico ================ */
+.reparo {
+    display: none;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+}
+.cardti {
+    position: relative;
+    width: 500px;
+    height: auto;
+    margin: 0px auto;
+    background: #31373d;
+}
+.card-title-ti {
+    position: relative;
+    width: 500px;
+    height: auto;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 90%);
+}
+.card-title-ti video {
+    width: 100%;
+}
+.card-tibody {
+    display: block;
+    position: static;
+    padding: 10px;
+    margin-top: -30px;
+    text-align: left;
+}
+h3 {
+    margin: 0;
+    color: #ffffff;
+}
+p {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+/* ================ Full Suporte ================ */
+.suporte {
+    display: none;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.card-suporte {
+    position: relative;
+    width: 500px;
+    height: auto;
+    margin: 0px auto;
+    background: #31373d;
+}
+.card-title-sup {
+    position: relative;
+    width: 500px;
+    height: auto;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 90%);
+
+}
+.card-title-sup img {
+    width: 100%;
+}
+.chats {
+    position: relative;
+    width: 500px;
+    height: auto;
+    margin-top: -30px;
+    padding: 10px;
+    background: #31373d;
+}
+.chats h3 {
+    color: #ffffff;
+}
+.chats p {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 5px 0;
+}
+#btn4 {
+    position: relative;
+    padding: 20px 0;
+    border: none;
+    background: transparent;
+}
+#btn4 a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-weight: bold;
+    background: linear-gradient(to right, #00093c, #008eec);
+}
+#btn4:hover {
+    transform: translateX(10px);
+    transition: 0.3s linear;
+}
+
+#btn5 {
+    position: relative;
+    padding: 20px 0;
+    border: none;
+    background: transparent;
+}
+#btn5 a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: bold;
+    background: linear-gradient(to right, #00093c, #008eec);
+}
+#btn5:hover {
+    transform: translateX(10px);
+    transition: 0.3s linear;
+}
+/* ================ Slide Portfolio ================ */
+.portfolio {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.slide {
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    border: 5px solid #31373d;
+}
+.mySlides {
+    display: block;
+}
+img {
+    vertical-align: middle;
+}
+/* ======== Next & previous ======== */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #31373d;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+.dot{
+ height: 10px;
+  width: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .prev, .next,.text {font-size: 14px}
+}
+}
 /* ================ footer ================ */
 footer {
     width: 100%;
@@ -269,6 +479,12 @@ hr {
     text-align: center;
     
 }
+/* ================ Service ================ */
+
+/* ================ Open Cards Potfolio ================ */
+.open {
+    display: block;
+}
 /* ================ responsive ================ */
 @media (max-width: 1024px) {
     .header h1 {
@@ -278,6 +494,9 @@ hr {
     }
     .col {
         flex-basis: 100%;
+    }
+    .slide {
+        width: 95%;
     }
 }
 @media (max-width: 900px) {
@@ -289,5 +508,33 @@ hr {
     .col {
         display: inline-block;
         text-align: center;
+    }
+    .reparo {
+        width: auto;
+    }
+    .cardti {
+        width: auto;
+    }
+    .card-title-ti {
+        width: auto;
+    }
+    .suporte {
+        width: auto;
+    }
+    .card-suporte {
+        width: auto;
+    }
+    .card-title-sup {
+        width: auto;
+    }
+    .chats {
+        width: auto;
+    }
+    .portfolio {
+        width: auto;
+        
+    }
+    .slide {
+        width: auto;
     }
 }
