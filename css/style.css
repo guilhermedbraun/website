@@ -107,42 +107,24 @@ h1 {
     margin: 10px 0 0;
     padding: 0;
 }
-/* ======== Show container ======== */
 .show {
     display: flex;
 }
+/* ======== Show container ======== */
 .card {
     position: relative;
-    width: 290px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     margin: 40px auto;
     background: #31373d;
 }
-.card-title1 {
+.card-title {
     position: relative;
-    width: 290px;
-    height: 200px;
+    width: 400px;
+    height: 260px;
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
 }
-.card-title2 {
-    position: relative;
-    width: 290px;
-    height: 200px;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
-}
-.card-title3 {
-    position: relative;
-    width: 290px;
-    height: 200px;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
-}
-.card-title1 img {
-    width: 100%;
-}
-.card-title2 img {
-    width: 100%;
-}
-.card-title3 img {
+.card-title img {
     width: 100%;
 }
 .card:hover {
@@ -177,39 +159,7 @@ p {
     padding: 10px 30px;
     background: linear-gradient(to right, #00093c, #008eec);
 }
-#btn2 {
-    position: absolute;
-    bottom: 20px;
-    padding: 0;
-    border: none;
-}
-#btn2 a {
-    text-decoration: none;
-    color: #ffffff;
-    padding: 10px 30px;
-    background: linear-gradient(to right, #00093c, #008eec);
-}
-#btn3 {
-    position: absolute;
-    bottom: 20px;
-    padding: 0;
-    border: none;
-}
-#btn3 a {
-    text-decoration: none;
-    color: #ffffff;
-    padding: 10px 30px;
-    background: linear-gradient(to right, #00093c, #008eec);
-}
 #btn1:hover {
-    transform: translateX(10px);
-    transition: 0.3s linear;
-}
-#btn2:hover {
-    transform: translateX(10px);
-    transition: 0.3s linear;
-}
-#btn3:hover {
     transform: translateX(10px);
     transition: 0.3s linear;
 }
@@ -220,148 +170,7 @@ p {
     width: 100%;
     height: auto;
     align-items: center;
-    margin: 0 auto;
-}
-/* ================ técnico ================ */
-.reparo {
-    display: none;
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    text-align: center;
-}
-.cardti {
-    position: relative;
-    width: 500px;
-    height: auto;
-    margin: 0px auto;
-    background: #31373d;
-}
-.card-title-ti {
-    position: relative;
-    width: 500px;
-    height: auto;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 90%);
-}
-.card-title-ti video {
-    width: 100%;
-}
-.card-tibody {
-    display: block;
-    position: static;
-    padding: 10px;
-    margin-top: -30px;
-    text-align: left;
-}
-h3 {
-    margin: 0;
-    color: #ffffff;
-}
-p {
-    font-size: 14px;
-    color: #ffffff;
-}
-
-/* ================ Full Suporte ================ */
-.suporte {
-    display: none;
-    width: 100%;
-    height: auto;
-    padding: 10px;
-}
-.card-suporte {
-    position: relative;
-    width: 500px;
-    height: auto;
-    margin: 0px auto;
-    background: #31373d;
-}
-.card-title-sup {
-    position: relative;
-    width: 500px;
-    height: auto;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 90%);
-
-}
-.card-title-sup img {
-    width: 100%;
-}
-.chats {
-    position: relative;
-    display: block;
-    width: 500px;
-    height: auto;
-    margin-top: -30px;
-    padding: 10px;
-    background: #31373d;
-}
-.chats h3 {
-    color: #ffffff;
-}
-.chats p {
-    font-size: 14px;
-    color: #ffffff;
-}
-/* ======= btn ========= */
-#btn4 {
-    position: relative;
-    display: inline;
-    padding: 15px 0;
-    border: none;
-    background: transparent;
-}
-#btn4 a {
-    text-decoration: none;
-    color: #ffffff;
-    padding: 10px 12px 10px 11px;
-    font-weight: bold;
-    background: linear-gradient(to right, #00093c, #008eec);
-}
-#btn4:hover {
-    transform: translateX(10px);
-    transition: 0.3s linear;
-}
-#btn4 img {
-    position: relative;
-    width: 30px;
-    margin: 0 3px 3px 0;
-    border: 1px solid #fff;
-}
-/* ======= btn ========= */
-#btn5 {
-    position: relative;
-    padding: 15px 0;
-    border: none;
-    background: transparent;
-}
-#btn5 a {
-    text-decoration: none;
-    color: #ffffff;
-    padding: 10px 30px;
-    font-weight: bold;
-    background: linear-gradient(to right, #00093c, #008eec);
-}
-#btn5:hover {
-    transform: translateX(10px);
-    transition: 0.3s linear;
-}
-/* ======= btn ========= */
-#btn6 {
-    position: relative;
-    padding: 15px 0;
-    border: none;
-    background: transparent;
-}
-#btn6 a {
-    text-decoration: none;
-    color: #ffffff;
-    padding: 10px 20px;
-    font-weight: bold;
-    background: linear-gradient(to right, #00093c, #008eec);
-}
-#btn6:hover {
-    transform: translateX(10px);
-    transition: 0.3s linear;
+    margin: 0 auto 20px;
 }
 /* ================ Slide Portfolio ================ */
 .portfolio {
@@ -399,16 +208,14 @@ img {
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
-/* The dots/bullets/indicators */
+/* dots */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -422,7 +229,7 @@ img {
 .active, .dot:hover {
   background-color: #31373d;
 }
-/* Fading animation */
+/* animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -437,17 +244,117 @@ img {
   from {opacity: .4} 
   to {opacity: 1}
 }
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-.dot{
- height: 10px;
-  width: 10px;
+    .prev, .next,.text {font-size: 11px}
+    .dot{
+    height: 10px;
+    width: 10px;
+    }
+    @media only screen and (max-width: 500px) {
+    .prev, .next,.text {font-size: 14px}
+    }
 }
-@media only screen and (max-width: 500px) {
-  .prev, .next,.text {font-size: 14px}
+/* ================ técnico ================ */
+.suporte {
+    display: none;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
 }
+.cardti {
+    position: relative;
+    width: 620px;
+    height: auto;
+    margin: 0px auto;
+    background: #31373d;
 }
+.card-title-ti {
+    position: relative;
+    width: 620px;
+    height: auto;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 90%);
+}
+.card-title-ti video {
+    width: 100%;
+}
+.card-tibody {
+    display: block;
+    position: static;
+    padding: 10px;
+    margin-top: -30px;
+    text-align: left;
+}
+h3 {
+    margin: 0;
+    color: #ffffff;
+}
+p {
+    font-size: 14px;
+    color: #ffffff;
+}
+/* ======= btn ========= */
+#btn2 {
+    position: relative;
+    display: inline;
+    padding: 15px 0;
+    border: none;
+    background: transparent;
+}
+#btn2 a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 12px 10px 11px;
+    font-weight: bold;
+    background: linear-gradient(to right, #00093c, #008eec);
+}
+#btn2:hover {
+    transform: translateX(10px);
+    transition: 0.3s linear;
+}
+#btn2 img {
+    position: relative;
+    width: 30px;
+    margin: 0 3px 3px 0;
+    border: 1px solid #fff;
+}
+/* ======= btn ========= */
+#btn3 {
+    position: relative;
+    padding: 15px 0;
+    border: none;
+    background: transparent;
+}
+#btn3 a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-weight: bold;
+    background: linear-gradient(to right, #00093c, #008eec);
+}
+#btn3:hover {
+    transform: translateX(10px);
+    transition: 0.3s linear;
+}
+/* ======= btn ========= */
+#btn4 {
+    position: relative;
+    padding: 15px 0;
+    border: none;
+    background: transparent;
+}
+#btn4 a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: bold;
+    background: linear-gradient(to right, #00093c, #008eec);
+}
+#btn4:hover {
+    transform: translateX(10px);
+    transition: 0.3s linear;
+}
+
 /* ================ footer ================ */
 footer {
     width: 100%;
@@ -504,8 +411,6 @@ hr {
     text-align: center;
     
 }
-/* ================ Service ================ */
-
 /* ================ Open Cards Potfolio ================ */
 .open {
     display: block;
@@ -528,13 +433,7 @@ hr {
     .show {
         display: block;
     }
-}
-@media (max-width: 500px) {
-    .col {
-        display: inline-block;
-        text-align: center;
-    }
-    .reparo {
+    .suporte {
         width: auto;
     }
     .cardti {
@@ -543,23 +442,35 @@ hr {
     .card-title-ti {
         width: auto;
     }
-    .suporte {
+}
+@media (max-width: 500px) {
+    .container {
+        padding: 0 10px;
+    }
+    .card {
         width: auto;
     }
-    .card-suporte {
+    .card-title {
         width: auto;
-    }
-    .card-title-sup {
-        width: auto;
-    }
-    .chats {
-        width: auto;
+        height: 210px
     }
     .portfolio {
         width: auto;
-        
     }
     .slide {
         width: auto;
+    }
+    .suporte {
+        width: auto;
+    }
+    .cardti {
+        width: auto;
+    }
+    .card-title-ti {
+        width: auto;
+    }
+    .col {
+        display: inline-block;
+        text-align: center;
     }
 }
