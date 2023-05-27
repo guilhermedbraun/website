@@ -19,6 +19,7 @@ function Show() {
         suporte.classList.remove('open')
     } else {
         suporte.classList.add('open')
+        portfolio.classList.remove('open')
     }
   }
   function slideshow() {
@@ -27,6 +28,7 @@ function Show() {
         portfolio.classList.remove('open')
     } else {
         portfolio.classList.add('open')
+        suporte.classList.remove('open')
     }
   }
 /////////////////////////////
