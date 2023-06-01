@@ -13,36 +13,23 @@ function Show() {
     }
   }
 // portfolios show //
-  function fullsuporte() {
-    let suporte = document.querySelector('.suporte')
-    if (suporte.classList.contains('open')) {
-        suporte.classList.remove('open')
-    } else {
-        suporte.classList.add('open')
-        portfolio.classList.remove('open')
-    }
+function portfolio() {
+  let portfolio = document.querySelector('.portfolio')
+  let suporte = document.querySelector('.suporte')
+  if (portfolio.classList.contains('portopen')) {
+      portfolio.classList.remove('portopen')
+  } else {
+      portfolio.classList.add('portopen')
+      suporte.classList.remove('supopen')
   }
-  function slideshow() {
-    let portfolio = document.querySelector('.portfolio')
-    if (portfolio.classList.contains('open')) {
-        portfolio.classList.remove('open')
-    } else {
-        portfolio.classList.add('open')
-        suporte.classList.remove('open')
-    }
+}
+function fullsuporte() {
+  let suporte = document.querySelector('.suporte')
+  let portfolio = document.querySelector('.portfolio')
+  if (suporte.classList.contains('supopen')) {
+      suporte.classList.remove('supopen')
+  } else {
+      suporte.classList.add('supopen')
+      portfolio.classList.remove('portopen')
   }
-/////////////////////////////
-//          Slide          //
-var slideIndex = 0
-showSlides()
-function showSlides() {
-    var i
-    var slides = document.getElementsByClassName("mySlides")
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none"
-    }
-    slideIndex++
-    if (slideIndex > slides.length) { slideIndex = 1 }
-    slides[slideIndex - 1].style.display = "block"
-    setTimeout(showSlides, 5000)
 }
