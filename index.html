@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Guilherme Front-End</title>
+    </head>
+    <body>
+
+        <header class="header">
+            <div class="perfil">
+                <img src="./images/perfil.jpg" alt="">
+            </div>
+            <h1>
+                <a href="./index.html">Guilherme Braun</a></h1>
+        </header>
+            <div class="btt"><button class="btm" onclick="Show()"><span>Open the Door</span></button></div>
+        <div class="container">
+
+            <div class="card">
+                <div class="card-title">
+                    <img src="./images/front-end.jpg" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>Dev Web Front-End</h3>
+                    <p>Criação de websites, layouts, landing page pessoal ou empresarial.</p>
+                    <p>Confira meu portfolio!</p>
+                    <button id="btn1" onclick="portfolio()"><a href="#portfolio">Mais</a></button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">
+                    <img src="./images/suporte.jpg" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>Téc. em Informática</h3>
+                    <h3>Suporte Online</h3>
+                    <p>Precisa instalar, consertar ou manutenção? </p>
+                    <p>Orientação por acesso remoto, telefone ou chats.</p>
+                    <button id="btn1" onclick="fullsuporte()"><a href="#suporte">Mais</a></button>
+                </div>
+            </div>
+             
+        </div>
+
+        <div id="extra">
+
+                <div class="portfolio" id="portfolio">
+                    
+                    <div class="quadros">
+                        <video class="video" oncontextmenu="return false;" controls controlsList="nodownload" muted>
+                            <source src="./video/portfolio/05-menu-bar.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    
+                    <div class="quadros">
+                        <video class="video" oncontextmenu="return false;" controls controlsList="nodownload" muted>
+                            <source src="./video/portfolio/05-menu-bar-b.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    
+                    <div class="quadros">
+                        <video class="video" oncontextmenu="return false;" controls controlsList="nodownload" muted>
+                            <source src="./video/portfolio/04-rocketseat.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    
+                    <div class="quadros">
+                        <video class="video" oncontextmenu="return false;" controls controlsList="nodownload" muted>
+                            <source src="./video/portfolio/04-rocketseat-b.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    
+                    <div class="quadros">
+                        <video class="video" oncontextmenu="return false;" controls controlsList="nodownload" muted>
+                            <source src="./video/portfolio/03-mario.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    
+                    <div class="quadros">
+                        <video class="video" oncontextmenu="return false;" controls controlsList="nodownload" muted>
+                            <source src="./video/portfolio/03-mario-b.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    
+                    <div class="quadros">
+                        <video class="video" oncontextmenu="return false;" controls controlsList="nodownload" muted>
+                            <source src="./video/portfolio/02-pro-stake.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    
+                    <div class="quadros">
+                        <video class="video" oncontextmenu="return false;" controls controlsList="nodownload" muted>
+                            <source src="./video/portfolio/01-pontual.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                </div>
+
+                <div class="suporte" id="suporte">
+                    <div class="cardti">
+                        <div class="card-title-ti">
+                            <video src="./video/Motherboard.mp4" type="video/mp4" autoplay muted loop oncontextmenu="return false;"></video>
+                        </div>
+                        <div class="card-tibody">
+                            <h3>Windows e Linux</h3>
+                            <p>Montagem e manutenção de microcomputadores e notebook. Montagem e manutenção avançada em Hardware e Software. Redes. Instalação de impressora. Formatação de celulares e tablets.</p>
+                            <p>Técnico em Informática desde 2008.</p>
+                            <p>A visita ao cliente é cobrada.</p>
+                            <button id="btn2"><a href="tel:+5521976431013">(21)97643-1013</a></button>
+                            <br>
+                            <button id="btn3"><a href="#contatos">Contatos</a></button>
+                            <p>Trabalhei por 6 anos na Taxi Pontual (2009 a 2015), onde fui responsável por todos os computadores da empresa de 2012 a 2015. Computadores de atendimento/telemarketing: 33. Computadores administrativos: 15 e 4 servidores.</p>
+                            <p>Fui coordenador de logistica de uma equipe para entrega e coleta de peças de computadores, impressoras, caixas eletrônicos, porta giratória, alarmes e qualquer outra área de tecnologia a serviço da BBTS (Branco do Brasil Tecnologia e Serviços) de 2016 à 2020.</p>
+                            <br>
+                            <h3>Precisa de suporte?</h3>
+                            <p>Faça contato por telefone ou uma das redes sociais listadas abaixo.</p>
+                            <p>Orientação por telefone, Whatsapp, Facebook, Instagram, Twitter ou outros chats para combinar.</p>
+                            <p>Acesso remoto preferencial com teamviewer. Baixe o teamviewer no site oficial:</p>
+                            <button id="btn4"><a href="https://www.teamviewer.com/pt-br/" target="_blank">TeamViewer</a></button>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
+        <footer>
+            <div class="col" id="contatos">
+                 <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/guilherme-braun-823b801a8" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/guilhermedbraun" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/guilhermedbraun" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/guilherme.dbraun" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/guilhermedbraun" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/message/PVAGSB4PSWKPG1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                 </div>
+            </div>
+         <hr>
+         <p class="copyright">Copyright &copy; 2023</p>
+     </footer>
+     <script src="https://kit.fontawesome.com/eb7ff8f7b9.js" crossorigin="anonymous"></script>
+     <script src="./js/script.js"></script>
+    </body>
+</html>
