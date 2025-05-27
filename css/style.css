@@ -102,7 +102,7 @@ header h1 a {
 }
 /* ================ card ================ */
 .container {
-    display: none;
+    display: flex;
     justify-content: space-between;
     width: 100%;
     height: auto;
