@@ -9,6 +9,7 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     background: #000000;
+    padding: 0;
 }
 /* ================ banner perfil ================ */
 .header {
