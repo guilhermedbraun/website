@@ -62,12 +62,6 @@ header h1 a {
     text-align: center;
 }
 .btm {
-    height: 10px;
-}
-/* ======== Close Botão Open ======== */
-/* close = btt */
-.close {
-    display: none;
     position: relative;
     z-index: 1;
     transform: translateY(-24px);
@@ -80,6 +74,11 @@ header h1 a {
     cursor: pointer;
     clip-path: polygon(0% 20%, 100% 0%, 100% 80%, 0% 100%);
     transition: 2s;
+}
+/* ======== Close Botão Open ======== */
+/* close = btt */
+.close {
+    display: none;
 }
 .btm span {
     animation: brilho 1s ease-in-out infinite;
