@@ -309,10 +309,10 @@ footer {
     width: 100%;
     height: auto;
     position: relative;
-    bottom: 100%;
+    bottom: 0;
     background:  linear-gradient(to right, #00093c, #008eec);
     color: #fff;
-    padding: 100px 0 30px;
+    padding: 100% 0 30px;
     font-size: 13px;
     line-height: 20px;
     clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%);
@@ -324,7 +324,7 @@ footer {
     padding: 10px;
     margin-right: 4%;
     float: right;
-    bottom: 100%;
+    bottom: 0;
 }
 .social-icons a {
     display: inline-block;
