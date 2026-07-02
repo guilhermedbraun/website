@@ -76,7 +76,7 @@ header h1 a {
     transition: 2s;
 }
 /* ======== Close Botão Open ======== */
-close = btt
+/* close = btt */
 .close {
     display: none;
 }
@@ -309,7 +309,7 @@ footer {
     width: 100%;
     position: relative;
     bottom: 0;
-    background: linear-gradient(to right, #00093c, #008eec);
+    background:  linear-gradient(to right, #00093c, #008eec);
     color: #fff;
     padding: 100px 0 30px;
     font-size: 13px;
@@ -358,6 +358,7 @@ hr {
 }
 .copyright {
     text-align: center;
+    
 }
 /* ================ Open Cards Potfolio ================ */
 .portopen {
