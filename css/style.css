@@ -9,8 +9,6 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     background: #000000;
-    display: flexbox;
-    flex-direction: column;
 }
 /* ================ banner perfil ================ */
 .header {
@@ -311,7 +309,7 @@ footer {
     width: 100%;
     height: auto;
     position: relative;
-    bottom: 0;
+    bottom: 100%;
     background:  linear-gradient(to right, #00093c, #008eec);
     color: #fff;
     padding: 100px 0 30px;
@@ -326,6 +324,7 @@ footer {
     padding: 10px;
     margin-right: 4%;
     float: right;
+    bottom: 100%;
 }
 .social-icons a {
     display: inline-block;
