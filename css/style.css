@@ -62,6 +62,7 @@ header h1 a {
     text-align: center;
 }
 .btm {
+    display: none;
     position: relative;
     z-index: 1;
     transform: translateY(-24px);
@@ -78,7 +79,7 @@ header h1 a {
 /* ======== Close Botão Open ======== */
 /* close = btt */
 .close {
-    display: none;
+    display: "";
 }
 .btm span {
     animation: brilho 1s ease-in-out infinite;
@@ -102,7 +103,7 @@ header h1 a {
 }
 /* ================ card ================ */
 .container {
-    display: flex;
+    display: none;
     justify-content: space-between;
     width: 100%;
     height: auto;
