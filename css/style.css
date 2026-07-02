@@ -76,7 +76,7 @@ header h1 a {
     transition: 2s;
 }
 /* ======== Close Botão Open ======== */
-/* close = btt */
+close = btt
 .close {
     display: none;
 }
