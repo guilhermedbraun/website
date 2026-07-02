@@ -313,7 +313,7 @@ footer {
     bottom: 0;
     background:  linear-gradient(to right, #00093c, #008eec);
     color: #fff;
-    padding: 100% 0 30px;
+    padding: 100px 0 30px;
     font-size: 13px;
     line-height: 20px;
     clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%);
