@@ -62,7 +62,7 @@ header h1 a {
     text-align: center;
 }
 .btm {
-    display: none;
+    height: 10px;
 }
 /* ======== Close Botão Open ======== */
 /* close = btt */
