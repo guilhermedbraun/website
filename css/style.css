@@ -308,7 +308,7 @@ p {
 /* ================ footer ================ */
 footer {
     width: 100%;
-    height: auto;
+    height: 100%;
     position: relative;
     bottom: 0;
     background:  linear-gradient(to right, #00093c, #008eec);
